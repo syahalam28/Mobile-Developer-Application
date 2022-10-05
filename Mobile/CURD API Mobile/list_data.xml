@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="60dp"
+        android:text="NIM"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_below="@+id/tvNim"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="60dp"
+        android:text="Nama"
+        android:layout_marginBottom="5dp"
+        android:textColor="#006400"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="60dp"
+        android:text="ID"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imgRemove"
+            android:src="@drawable/remove"
+            android:layout_marginEnd="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:src="@drawable/edit"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/imgRemove"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="ContentDescription" />
+
+
+
+</RelativeLayout>
